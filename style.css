@@ -101,7 +101,7 @@
 }
 
 /* interactive vr */
-#sect{padding: 2em 0em;}
+#section1,#section2{padding: 2em 0em;}
 .img-info{
     display: grid;
     grid-gap: 1em;
@@ -127,7 +127,7 @@
 }
 
 /* our creators */
-#desktop,.title-btn .btn{display: none;}
+.desktop,.title-btn .btn{display: none;}
 .creators{padding: 3em 0px;}
 .title-btn{
     text-align: center;
@@ -153,7 +153,7 @@
     bottom: 2vh;
     left: 5%;
 }
-#mobile{
+.mobile{
     width: 100%;
     background: var(--color-Black);
     background: linear-gradient(rgba(8, 8, 7, 0.96),hsla(17, 3%, 3%, 0.96));
@@ -306,8 +306,8 @@ footer{background-color: var(--color-Black);}
     .info p{text-align: left;}
 
     /* our creators */
-    #desktop,.title-btn .btn{display: unset;}
-    #mobile,#btn{display: none;}
+    .desktop,.title-btn .btn{display: unset;}
+    .mobile,#btn{display: none;}
 
     .creators{padding: 3em 0px;}
     .title-btn{
@@ -326,7 +326,7 @@ footer{background-color: var(--color-Black);}
         grid-gap: 1em;
         grid-template-columns: repeat(4,1fr);
     }
-    #desktop{width: 100%;}
+    .desktop{width: 100%;}
     .img-bx a{
         position: relative;
         text-decoration: none;
